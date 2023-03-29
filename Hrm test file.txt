@@ -1,1 +1,2 @@
 automation test
+also do manual testing
