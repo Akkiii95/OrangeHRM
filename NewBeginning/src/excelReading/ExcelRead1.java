@@ -15,12 +15,12 @@ public class ExcelRead1 {
 		File myfile = new File("E:\\selenium\\excel new.xlsx");
 		Sheet mySheet = WorkbookFactory.create(myfile).getSheet("New data");
 		
-		int rows = mySheet.getLastRowNum();
-		int cols = mySheet.getRow(0).getLastCellNum()-1;
+		int rows = mySheet.getLastRowNum(); // tot no. of rows in sheet
+		int cols = mySheet.getRow(0).getLastCellNum()-1;  // tot no. of cols in sheet
 
-		for(int i=0; i<=rows; i++)
+		for(int i=0; i<=rows; i++) // for rows
 		{
-			for (int j=0; j<= cols; j++)
+			for (int j=0; j<= cols; j++) // for cols
 			{
 				CellType dataType = mySheet.getRow(i).getCell(j).getCellType();
 				
