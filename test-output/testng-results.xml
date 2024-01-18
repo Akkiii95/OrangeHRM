@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T21:40:17 IST" name="Suite" finished-at="2023-03-21T21:41:10 IST" duration-ms="52453">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T21:40:17 IST" name="Test1" finished-at="2023-03-21T21:41:04 IST" duration-ms="46926">
+      <class name="testNg.frame2">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:testNg.frame2@306e95ec]" started-at="2023-03-21T21:40:17 IST" name="Launch" finished-at="2023-03-21T21:40:40 IST" duration-ms="23249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Frame2()[pri:0, instance:testNg.frame2@306e95ec]" started-at="2023-03-21T21:40:40 IST" name="Frame2" finished-at="2023-03-21T21:40:47 IST" duration-ms="6868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frame2 -->
+      </class> <!-- testNg.frame2 -->
+      <class name="testNg.frame1">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:testNg.frame1@59505b48]" started-at="2023-03-21T21:40:47 IST" name="Launch" finished-at="2023-03-21T21:40:52 IST" duration-ms="4375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Frame1()[pri:0, instance:testNg.frame1@59505b48]" started-at="2023-03-21T21:40:52 IST" name="Frame1" finished-at="2023-03-21T21:41:04 IST" duration-ms="12330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frame1 -->
+      </class> <!-- testNg.frame1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-03-21T21:40:17 IST" name="Test2" finished-at="2023-03-21T21:41:10 IST" duration-ms="52453">
+      <class name="testNg.frame2">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:testNg.frame2@6574a52c]" started-at="2023-03-21T21:40:17 IST" name="Launch" finished-at="2023-03-21T21:40:45 IST" duration-ms="27377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Frame2()[pri:0, instance:testNg.frame2@6574a52c]" started-at="2023-03-21T21:40:45 IST" name="Frame2" finished-at="2023-03-21T21:40:53 IST" duration-ms="8239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frame2 -->
+      </class> <!-- testNg.frame2 -->
+      <class name="testNg.frame1">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:testNg.frame1@6c1a5b54]" started-at="2023-03-21T21:40:53 IST" name="Launch" finished-at="2023-03-21T21:41:00 IST" duration-ms="7029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Frame1()[pri:0, instance:testNg.frame1@6c1a5b54]" started-at="2023-03-21T21:41:00 IST" name="Frame1" finished-at="2023-03-21T21:41:10 IST" duration-ms="9710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frame1 -->
+      </class> <!-- testNg.frame1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
